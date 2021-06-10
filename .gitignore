@@ -36,3 +36,5 @@ CTestTestFile.cmake
 
 # vim temp files
 *.swp
+/.vs
+/out/build/x64-Debug
