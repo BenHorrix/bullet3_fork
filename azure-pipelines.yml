@@ -17,11 +17,6 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
 - task: CMake@1
-  displayName: 'Run CMake with CMakeSettings.json'
   inputs:
-    cmakeListsOrSettingsJson: 'CMakeSettingsJson'
-    cmakeSettingsJsonPath: 'CMakeSettings.json'
-    useVcpkgToolchainFile: false
-    configurationRegexFilter: '^(x64-Debug)$'
+    cmakeArgs: 
