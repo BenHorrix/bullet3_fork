@@ -19,6 +19,8 @@ steps:
     pwd
     ls
   displayName: 'Run a multi-line script'
+  
 - task: CMake@1
   inputs:
-    cmakeArgs: -B src
+    workingDirectory: 'src'
+    cmakeArgs: 
