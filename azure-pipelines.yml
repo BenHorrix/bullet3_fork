@@ -22,6 +22,6 @@ steps:
   displayName: 'Run CMake with CMakeSettings.json'
   inputs:
     cmakeListsOrSettingsJson: 'CMakeSettingsJson'
-    cmakeSettingsJsonPath: 'azure-devops.cmakesettings.json'
+    cmakeSettingsJsonPath: 'CMakeSettings.json'
     useVcpkgToolchainFile: false
     configurationRegexFilter: '^(x64-Debug)$'
